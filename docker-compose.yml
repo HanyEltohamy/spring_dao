@@ -1,0 +1,23 @@
+services:
+  postgres:
+    container_name: pg-sql
+    image: postgres
+    environment:
+      POSTGRES_USER: hany
+      POSTGRES_PASSWORD: sa123
+      volumes: /var/lib/postgresql/data
+      POSTGRES_DB: daoDb
+    volumes:
+      - postgres:/data/postgres
+    ports:
+      - 5432:5432
+    networks:
+      - spring-net
+    restart: unless-stopped
+networks:
+  spring-net:
+    driver: bridge
+
+volumes:
+  postgres:
+    driver: local

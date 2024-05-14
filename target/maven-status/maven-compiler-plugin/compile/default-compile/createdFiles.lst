@@ -1,0 +1,14 @@
+com\bits\service\CustomAuthenticationProvider.class
+com\bits\model\RoleEnum.class
+com\bits\service\UserDetailsServiceImpl.class
+com\bits\SecurityDaoApplication.class
+com\bits\repository\RoleRepository.class
+com\bits\model\Role$RoleBuilder.class
+com\bits\model\Role.class
+com\bits\model\User.class
+com\bits\repository\UserRepository.class
+com\bits\security\SecurityConfiguration.class
+com\bits\service\RoleService.class
+com\bits\model\User$UserBuilder.class
+com\bits\service\UserService.class
+com\bits\controller\AuthController.class
